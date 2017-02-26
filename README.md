@@ -3,22 +3,42 @@ jquery.csrf
 
 Set CSRF token header for jQuery.
 
-##Usage
-First, Include jQuery Then **jquery.csrf.js**:
-```js
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="jquery.csrf.js"></script>
-```
-Then, Include `meta` Tag In Your Page With The CSRF-Token In It:
-```html
-<meta name="csrf-token" content="myCSRFtoken">
-```
-Now, Whenever You Make AJAX Request Using jQuery .. `X-CSRF-Token` Will Be Set To `myCSRFtoken`.
-Example:
-```js
-$( "body" ).load( "ajax/test.html" );
-```
+## Installation
+
+* NPM
+
+  ```bash
+  npm install -g jquery.csrf
+  ```
+
+* Bower
+
+  ```bash
+  bower install jquery.csrf
+  ```
+
+## Usage
+
+1. Include jQuery and jquery.csrf.js:
+
+  ```html
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="jquery.csrf.js"></script>
+  ```
+
+2. Include `meta` tag in your page with the CSRF-token:
+
+  ```html
+  <meta name="csrf-token" content="myCSRFtoken">
+  ```
+
+3. Now, whenever you make AJAX request using jQuery, `X-CSRF-Token` will be set to `myCSRFtoken`.
+
+  ```js
+  // Example:
+  $("body").load("ajax/test.html");
+  ```
 
 ## License
 
-Copyright © 2015 Jianqiu Xiao <swordray@gmail.com> under The [MIT License](http://opensource.org/licenses/MIT).
+Copyright © 2017 Jianqiu Xiao <swordray@gmail.com> under The [MIT License](http://opensource.org/licenses/MIT).
