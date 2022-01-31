@@ -1,7 +1,7 @@
 {
   "name": "jquery.csrf",
   "main": "jquery.csrf.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Jianqiu Xiao <swordray@gmail.com>"
   ],
@@ -14,7 +14,7 @@
   "dependencies": {
     "jquery": ">1.8.*"
   },
-  "homepage": "https://github.com/swordray/jquery.csrf",
+  "homepage": "https://bailushuyuan.org",
   "ignore": [
     "**/.*",
     "node_modules",
