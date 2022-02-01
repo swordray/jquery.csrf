@@ -5,16 +5,16 @@ Set CSRF token header for jQuery.
 
 ## Installation
 
+* Yarn
+
+  ```bash
+  yarn add jquery.csrf
+  ```
+
 * NPM
 
   ```bash
-  npm install -g jquery.csrf
-  ```
-
-* Bower
-
-  ```bash
-  bower install jquery.csrf
+  npm install jquery.csrf
   ```
 
 ## Usage
