@@ -1,9 +1,10 @@
 {
   "name": "jquery.csrf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Set CSRF token header for jQuery.",
   "main": "jquery.csrf.js",
-  "repository": "https://bailushuyuan.org",
+  "repository": "https://github.com/swordray/jquery.csrf.git",
+  "homepage": "https://bailushuyuan.org",
   "author": "Jianqiu Xiao <swordray@gmail.com>",
   "license": "MIT"
 }
